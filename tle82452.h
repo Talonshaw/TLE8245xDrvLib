@@ -71,6 +71,12 @@ freewheeling, the drive transistor is turned on again and the next PWM cycleis s
 #define TLE82452_ENABLE 1
 #define TLE82452_DISABLE 0
 
+#define INIT_STEP_1 0
+#define INIT_STEP_2 1
+#define INIT_STEP_3 2
+#define INIT_STEP_4 3
+#define INIT_READY 4
+
 typedef struct
 {
     /* byte0 */
